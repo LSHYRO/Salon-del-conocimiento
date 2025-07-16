@@ -1,0 +1,135 @@
+.banner-section {
+  background-image: url('/images/Banner_test_HD.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 0 0 3rem;
+}
+
+.banner-section h1 {
+  font-weight: 900;
+}
+
+/* Componentes reutilizables */
+.card {
+  text-align: center;
+  width: 300px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.card .picture {
+  width: 100%;
+  height: auto;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  height: calc(4 * 1.2rem);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.limited-title {
+  margin: 0;
+  text-align: center;
+  line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.carousel-container-section {
+  width: 100%;
+  margin: 3rem auto;
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Seccion ¿De qué se trata? */
+.text-card {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text-cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-column-gap: 0;
+  grid-row-gap: 3rem;
+}
+
+.about-section .title { grid-area: 1 / 1 / 2 / 3; }
+.about-section .about-text { 
+  grid-area: 2 / 1 / 3 / 2; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.about-section .about-text-cards { grid-area: 3 / 1 / 4 / 3; }
+.about-section .about-img { 
+  grid-area: 2 / 2 / 3 / 3; 
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Seccion de próposito */
+.purpose-container {
+  position: relative;
+  text-align: center;
+}
+.purpose-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.purpose-text-card {
+  display: block;
+}
+
+/* Seccion de importancia */
+.importance-section {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(2,auto);
+  gap: 2rem;
+  justify-items: center;
+  margin: 2rem 0;
+}
+
+.importance-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.importance-text div {
+  display: flex;
+  flex-direction: row;
+}

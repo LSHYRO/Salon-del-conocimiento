@@ -1,0 +1,130 @@
+/* Media Queries */
+@media (min-width: 640px) {
+  :root {
+    font-size: 16px;
+  }
+  .section {
+    padding: 2rem 4rem;
+  }
+
+  /* Seccion del Banner */
+  .banner-section {
+    padding: 4rem 2rem;
+  }
+
+  /* Seccion ¿De qué se trata? */
+  .about-text-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(10px, 1fr));
+    gap: 1rem;
+  }
+  .about-section .about-img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+  .text-card {
+    padding: 1rem 2rem;
+  }
+  
+  /* Seccion de próposito */
+  .purpose-container {
+    position: relative;
+    text-align: center;
+    height: auto;
+  }
+  .purpose-image {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .purpose-text-card {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    max-width: 30%;
+  }
+
+  /* Seccion de importancia */
+  .importance-section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 8px;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    font-size: 18px;
+  }
+
+  .header .menu-toggle {
+    display: none;
+    cursor: none;
+  }
+
+  .header .nav-links {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* Seccion del Banner */
+  .banner-section {
+    padding: 6rem 2rem;
+  }
+
+  /* Seccion galardonadas */
+  .card {
+    max-width: 300px;
+  }
+
+  .carousel-container-section {
+    padding: 0 6rem;
+  }
+
+  .custom-left-arrow,
+  .custom-right-arrow,
+  .react-multiple-carousel__arrow--left,
+  .react-multiple-carousel__arrow--right {
+    background-color: var(--secondary-color);
+  }
+
+  .react-multiple-carousel__arrow--left {
+    left: 0;
+  }
+
+  .react-multiple-carousel__arrow--right {
+    right: 0;
+  }
+
+  /* Seccion ¿De qué se trata? */
+  .text-card {
+    padding: 0.8rem 1rem;
+  }
+  .about-text-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px; 
+  }
+
+  .about-section .title { grid-area: 1 / 1 / 2 / 2; }
+  .about-section .about-text { grid-area: 2 / 1 / 3 / 2; }
+  .about-section .about-text-cards { grid-area: 3 / 1 / 4 / 2; }
+  .about-section .about-img { grid-area: 1 / 2 / 4 / 3; } 
+}

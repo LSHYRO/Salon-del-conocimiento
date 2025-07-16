@@ -1,0 +1,70 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 1);
+  background-color: #c0bdbd;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* 🎨 Variables */
+  --main-color: #f05c7c;
+  --secondary-color: #00B0A6;
+  --third-color: #ffffff;
+  --fourth-color: #000000;
+}
+
+/* Reset básico */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Utilidades de color */
+.primary-text-color   { color: var(--main-color); }
+.secondary-text-color { color: var(--secondary-color); }
+.third-text-color     { color: var(--third-color); }
+.fourth-text-color    { color: var(--fourth-color); }
+
+.primary-bg-color   { background-color: var(--main-color); }
+.secondary-bg-color { background-color: var(--secondary-color); }
+.third-bg-color     { background-color: var(--third-color); }
+.fourth-bg-color    { background-color: var(--fourth-color); }
+
+/* Tipografía general */
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1.title {
+  font-style: italic;
+  font-weight: 800;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
