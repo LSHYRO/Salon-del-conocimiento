@@ -16,6 +16,6 @@ Salón del conocimiento de mujeres cientificas
 
 
 ## Screenshots
-
+Avance actual del sitio web, calculado un 70% de progreso...
 ![Haga click aqui para ver un Screenshot del estado actual del sitio web](https://github.com/Yesterday01/Salon-del-conocimiento/blob/0047ec218ba97d7fae4fe911dce1555bb14afcc0/public/images/dump/avance-del-sitio-web.png)
 
