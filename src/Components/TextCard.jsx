@@ -1,7 +1,8 @@
-export default function TextCard ({ prymaryColor, secondaryColor, title, subtitle, paragraph, textcenter }) {
+export default function TextCard ({ textCardSelection, prymaryColor, secondaryColor, thirdColor,title, subtitle, paragraph, textcenter }) {
   const defaultPrimaryColor = 'primary-bg-color third-text-color'
   const defaultSecondaryColor = 'third-bg-color secondary-text-color'
-  const selected = prymaryColor ? defaultPrimaryColor : (secondaryColor ? defaultSecondaryColor : '')
+  const defaultThirdColor = 'secondary-bg-color third-text-color'
+  const selected = prymaryColor ? defaultPrimaryColor : (secondaryColor ? defaultSecondaryColor : (thirdColor ? defaultThirdColor : ''))
 
   const className = ` text-card
     ${textcenter ? 'text-center' : 'text-left'}

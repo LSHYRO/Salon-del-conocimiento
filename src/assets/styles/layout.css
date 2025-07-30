@@ -93,6 +93,7 @@
   flex-direction: column;
   z-index: 20;
   background-color: var(--main-color);
+  border-top: 2px solid var(--third-color);;
 }
 
 .footer-container {
