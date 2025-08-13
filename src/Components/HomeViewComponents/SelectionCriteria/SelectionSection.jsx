@@ -1,9 +1,9 @@
 import TextCard from '../../TextCard'
 import { Card } from './Card'
 
-export default function SelectionSection() {
+export default function SelectionSection({id}) {
     return (
-        <section className='section third-bg-color selection-section'>
+        <section className='section third-bg-color selection-section' id={id}>
             <h1 className='title secondary-text-color'>CRITERIOS DE SELECCIÓN</h1>
             <div className='secondary-text-color'>
                 <p className='selection-text'>
@@ -17,9 +17,9 @@ export default function SelectionSection() {
                     />
                 </div>
                 <div className='selection-criteria-cards'>
-                    <Card id={1} imageUrl='' name='Trayectoria académica y méritos científicos' />
-                    <Card id={2} imageUrl='' name='Contribuciones a su línea de generación o aplicación de conocimientos' />
-                    <Card id={3} imageUrl='' name='Aportaciones para explicar y solucionar los retos de su contexto' />
+                    <Card id={1} imageUrl='/images/criteria/trayectory.png' name='Trayectoria académica y méritos científicos' />
+                    <Card id={2} imageUrl='/images/criteria/contribution.png' name='Contribuciones a su línea de generación o aplicación de conocimientos' />
+                    <Card id={3} imageUrl='/images/criteria/aportation.png' name='Aportaciones para explicar y solucionar los retos de su contexto' />
                 </div>
                 <div className='selection-candidates-container'>
                     <div className='selection-candidates-cards'>
@@ -36,7 +36,7 @@ export default function SelectionSection() {
                             paragraph='Todas las instituciones que forma parte del Comité Científico tendrán la misma oportunidad de proponer a más candidatas que consideren para esta distinción.'
                         />
                     </div>
-                    <img className='img-selection-candidates' src='/images/Purpose_image.png' alt='Purpose_image.png' />
+                    <img className='img-selection-candidates' src='/images/criteria/selection.jpg' alt='Purpose_image.png' />
                 </div>
             </div>
         </section>

@@ -1,9 +1,9 @@
 import TextCard from '../../TextCard'
 
-export default function PurposeSection () {
+export default function PurposeSection ( { id } ) {
   return (
     <div>
-      <section className='section third-bg-color purpose-section'>
+      <section className='section third-bg-color purpose-section' id={id}>
         <h1 className='title secondary-text-color'>PROPÓSITO</h1>
       </section>
       <div className='purpose-container'>

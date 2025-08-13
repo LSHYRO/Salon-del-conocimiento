@@ -1,8 +1,8 @@
 import TextCard from '../../TextCard'
 
-export function AboutSection () {
+export function AboutSection ({id}) {
   return (
-    <section className='section secondary-bg-color about-section'>
+    <section className='section secondary-bg-color about-section' id={id}>
       <h1 className='title'>¿De qué se trata?</h1>
       <div className='about-text'>
         <p>

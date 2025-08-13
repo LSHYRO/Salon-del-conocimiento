@@ -1,13 +1,13 @@
 import React from 'react'
 import TextCard from '../../TextCard'
 
-export default function ImportanceSection () {
+export default function ImportanceSection ({id}) {
   return (
-    <section className='section secondary-bg-color'>
-      <h1 className='title'>IMPORTANCIA</h1>
-      <div className='importance-section'>
-        <img src='/images/dump/Tigre-kawaii-300x300.jpg' alt='Tigre-kawaii-300x300.jpg' />
+    <section className='section secondary-bg-color' id={id}>
+      
+      <div className='importance-section'>   
         <div className='importance-text'>
+          <h1 className='title'>IMPORTANCIA</h1>
           <div>
             <TextCard
               title='1'
@@ -39,6 +39,7 @@ export default function ImportanceSection () {
             />
           </div>
         </div>
+        <img src='/images/importance/woman_a.png' alt='Woman_A' width="60%"/>
       </div>
     </section>
   )

@@ -1,6 +1,6 @@
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import { responsive } from '../../js/galerydata';
+import { responsive } from '../../../js/galeryData';
 
 export function NewCarousel ({ items }) {
   if (!items || items.length === 0) {

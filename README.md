@@ -5,6 +5,7 @@ Salón del conocimiento de mujeres cientificas
 ## Autor
 
 - [@Yesterday01](https://www.github.com/Yesterday01)
+- [@LSHYRO](https://github.com/LSHYRO)
 
 ## Referencia de colores
 
