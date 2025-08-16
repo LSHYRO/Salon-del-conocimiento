@@ -36,6 +36,8 @@ export function HomeView () {
         <ImportanceSection id="ImportanceSection"/>
         <SelectionSection id="SelectionSection"/>
         <GalerySection id="GalerySection"/>
+        <MinutesSection/>
+        <ContactSection/>
       </>
     </PublicLayout>
   )

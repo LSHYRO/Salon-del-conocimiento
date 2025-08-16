@@ -10,7 +10,7 @@ export default function Photos({ photosGroup, year }) {
             <h1 className='title text-center'>Galeria {year}</h1>
             <div className='page-photos-galery'>
                 {photosGroup.map((photo) => (
-                    <img key={photo.id} src={photo.imageUrl} alt={`Photo ${photo.id}`} width="300px" />
+                    <img key={photo.id} src={photo.imageUrl} alt={`Photo ${photo.id}`}/>
                 ))}
             </div>
         </div>
