@@ -246,6 +246,8 @@
 
 .photos-group img{
   width: 250px;
+  aspect-ratio: 8/6;
+  object-fit: cover;
 }
 
 .carousel-container-section-galery {

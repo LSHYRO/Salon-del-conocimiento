@@ -5,34 +5,60 @@ export const galeryPhotos = [
         photos: [
             {
                 id: 1,
-                imageUrl: '/images/Patricia/PatriciaSoledadSanchezMedina_01.JPG',
-                name: 'DRA. PATRICIA SOLEDAD SÁNCHEZ MEDINA'
+                imageUrl: '/images/Galery2025/Dia3_0.jpeg',
             },
             {
                 id: 2,
-                imageUrl: '/images/Margarita/MargaritaDaltonPalomo_01.JPG',
-                name: 'DRA. MARGARITA DALTON PALOMO'
+                imageUrl: '/images/Galery2025/Dia3_1.jpeg',
             },
             {
                 id: 3,
-                imageUrl: '/images/Patricia/PatriciaSoledadSanchezMedina_01.JPG',
-                name: 'DRA. PATRICIA SOLEDAD SÁNCHEZ MEDINA'
+                imageUrl: '/images/Galery2025/Dia3_2.jpeg',
             },
             {
                 id: 4,
-                imageUrl: '/images/Margarita/MargaritaDaltonPalomo_01.JPG',
-                name: 'DRA. MARGARITA DALTON PALOMO'
+                imageUrl: '/images/Galery2025/Dia3_4.jpeg',
             },
             {
                 id: 5,
-                imageUrl: '/images/Patricia/PatriciaSoledadSanchezMedina_01.JPG',
-                name: 'DRA. PATRICIA SOLEDAD SÁNCHEZ MEDINA'
+                imageUrl: '/images/Galery2025/Dia3_5.jpeg',
             },
             {
                 id: 6,
-                imageUrl: '/images/Margarita/MargaritaDaltonPalomo_01.JPG',
-                name: 'DRA. MARGARITA DALTON PALOMO'
+                imageUrl: '/images/Galery2025/Dia3_6.jpeg',
             },
+            {
+                id: 7,
+                imageUrl: '/images/Galery2025/Dia3_7.jpeg',
+            },
+            {
+                id: 8,
+                imageUrl: '/images/Galery2025/Dia3_8.jpeg',
+            },
+            {
+                id: 9,
+                imageUrl: '/images/Galery2025/Dia3_9.jpeg',
+            },
+            {
+                id: 10,
+                imageUrl: '/images/Galery2025/Dia3_10.jpeg',
+            },
+            {
+                id: 11,
+                imageUrl: '/images/Galery2025/Dia3_11.jpeg',
+            },
+            {
+                id: 12,
+                imageUrl: '/images/Galery2025/Dia3_12.jpeg',
+            },
+            {
+                id: 13,
+                imageUrl: '/images/Galery2025/Dia3_13.jpeg',
+            },
+            {
+                id: 14,
+                imageUrl: '/images/Galery2025/Dia3_14.jpeg',
+            }
         ]
     },
     {
